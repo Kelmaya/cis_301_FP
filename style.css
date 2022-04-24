@@ -1,0 +1,127 @@
+html,body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99badd;
+}
+
+.name
+{
+    float: left;
+}
+  
+li a 
+{
+    float: right;
+    display: block;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover
+{
+    background-color: white;
+}
+  
+.container
+{
+    display: block;
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.soup1
+{
+    height: 600px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.soup2
+{
+    float: left;
+    overflow: hidden;
+    
+
+}
+
+.soup22
+{
+    float: right;
+    overflow: hidden;
+   
+
+}
+section
+{
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0 0px 0;
+    margin-bottom:-7px
+}
+
+footer
+{
+    font-size:1.5em;
+    text-align: center;
+    background-color:#99badd;
+}
+
+@media only screen and (max-width: 480px) 
+{
+    a{
+      float: none;
+      width: 100%;
+    }
+    .text{
+        display:none;
+    }
+    img{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1206px)
+{
+    a{
+      float: none;
+      width: 100%;
+    }
+    .soup1{
+        display: none;
+    }
+    .container{
+        position:static !important;
+        text-align: center;
+        
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+}

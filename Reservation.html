@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soupify Reservation</title>
+    <link rel="stylesheet" href="style_reservation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+        <ul>
+            <li><a class="name" href="Reservation.html">Book your reservation</a></li>
+            <li><a href="About.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+          </ul>    
+    </header>
+    <div>
+        <img class ="image-res" src="reserved1.jpg" alt="reservation1" />
+    <form>
+        <label for="fname">First name:</label>
+        <br />
+        <input type="text" id="fname" name="fname" >
+        <br />
+        <label for="lname">Last name:</label>
+        <br />
+        <input type="text" id="lname" name="lname" >
+        <br />
+        <label for="phone_num">Enter your phone number:</label>
+        <br />
+        <input type="text" id="phone_num" name="phone_num">
+        <br />
+        <label for="res_date">Input date:</label>
+        <br />
+        <input type="date" id="res_date" name="res_date" min="2022-01-01" max="2022-12-31" required>
+        <br />
+        <label for="res_time">Choose a time for your reservation:</label>
+        <br />
+        <input type="time" id="res_time" name="res" required>
+      </form>
+      <button class="signup" type="button">Reserve Now</button>
+    </div>
+    <footer>Visit us at 1634 Fieldcrest Road,Yaphank NY, New York 11980, Call us at 631-924-6533 </footer>
+  </body>
+</html>

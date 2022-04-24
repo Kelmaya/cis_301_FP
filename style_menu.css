@@ -1,0 +1,81 @@
+html,body
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-image: url('soup_back.jpg');
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: overlay;
+    font-family: 'Satisfy', cursive;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99badd;
+}
+
+.name
+{
+    float: left;
+}
+  
+li a 
+{
+    float: right;
+    display: block;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover
+{
+    background-color: white;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr
+{
+    background-color: rgba(255, 216, 235, 0.21);
+}
+
+col
+{
+    width:33%;
+}
+
+td, th 
+{
+    font-weight: 900;
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    border-left: 1px solid #99badd;
+    border-right: 1px solid #99badd;
+    padding: 8px;
+}
+
+footer
+{
+    font-size:1.5em;
+    text-align: center;
+    background-color:#99badd;
+}
+
+@media only screen and (max-width: 480px) 
+{
+    a{
+      float: none;
+      width: 100%;
+    }
+}
